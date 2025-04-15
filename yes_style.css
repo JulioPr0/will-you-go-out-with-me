@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8f5e9;
+    font-family: 'Indie Flower', cursive;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background-color: #f1f8e9;
+    padding: 40px;
+    border-radius: 20px;
+    border: 3px solid #8bc34a;
+    box-shadow: 0 8px 20px rgba(139, 195, 74, 0.3);
+    max-width: 600px;
+    width: 90%;
+}
+
+.header_text {
+    font-size: 50px;
+    font-weight: bold;
+    color: #8bc34a;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(139, 195, 74, 0.2);
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gif_container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.message p {
+    font-size: 24px;
+    color: #558b2f;
+    margin-top: 20px;
+}
